@@ -1,0 +1,10 @@
+.moeda{
+    background-color:blue;
+    color:black;
+    display:flex;
+    align-items:center;
+    text-align:center;
+    flex-direction:column;
+    height:400px;
+    width:300px;
+}

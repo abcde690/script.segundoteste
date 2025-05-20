@@ -3,11 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cotação</title>
-    <script src="script.js"></script>
+    
+    <title>Cotação em que usarei o DOM</title>
+    <script src="script.DOM"></script>  
+     <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
-    
+    <h1>Conversor de Dólar</h1>
+<form action="" id="formDolar">
+  <!-- 1. Campo de entrada: valor em dólares -->
+  <div class="form__element">
+    <label for="valorDolar">Valor em dólar (US$):</label>
+    <input
+      type="number"
+      id="valorDolar"
+      min="0"
+      step="0.01"
+      placeholder="Ex: 100.00"
+      class="form__textbox"
+    >
+  </div>
+
+  <!-- 2. Seletor de moeda -->
+  <div class="form__element">
+    <label for="moedaDestino">Converter para:</label>
+    <select id="moedaDestino" class="form__textbox">
+      <option value="real">Real (R$)</option>
+      <option value="euro">Euro (€)</option>
+    </select>
+  </div>
+
 </body>
 </html>
